@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Flamante Roma';
+    src:  url('/fonts/flamante-round-bold-ffp-webfont.woff2') format('woff2'),
+          url('/fonts/flamante-round-bold-ffp-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Flamante Roma';
+    src:  url('/fonts/flamante-roma-medium-webfont.woff2') format('woff2'),
+          url('/fonts/flamante-roma-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
