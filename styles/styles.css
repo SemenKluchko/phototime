@@ -2,6 +2,8 @@
 
 @import "fonts.css";
 
+@import "all.min.css";
+
 @import "small-default.css";
 
 @import "medium.css" only screen and (min-width: 35rem);
