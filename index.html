@@ -22,7 +22,7 @@
                     <li class="nav__item"><a class="nav__anchor" href="#">Download</a></li>
                 </ul>
             <form class="burger__form" action="#" method="GET">
-                <button class="burger__btn"></button>
+                <button class="burger__btn" type="submit"></button>
             </form>
             </nav>
             <div class="header__container">
@@ -33,44 +33,45 @@
                 </form>
             </div>
             <div class="font__menu">
-                <a href="#"><i class="font__item fab fa-twitter"></i></a>
-                <a href="#"><i class="font__item fab fa-flickr"></i></a>
-                <a href="#"><i class="font__item fab fa-dribbble"></i></a>
+                <a href="https://twitter.com/" target="_blanck"><i class="font__item fab fa-twitter"></i></a>
+                <a href="https://flickr.com" target="_blanck"><i class="font__item fab fa-flickr"></i></a>
+                <a href="https://dribbble.com/" target="_blanck"><i class="font__item fab fa-dribbble"></i></a>
             </div>
         </header>
         <main class="main">
             <section class="photoapp">
                 <div class="photoapp__container">
-                    <img class="photoapp__img" src="/images/HandPhoneSmall.png" alt="Iphone image">
-                    <h2 class="photoapp__title container__title--green">RAPPRESENT YOUR LIFE WITH A SIMPLE PHOTO</h2>
-                    <p class="photoapp__text container__text--grey" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <form class="photoapp__form" action="#" method="GET">
-                        <button class="btn">get started</button>
-                    </form>
+                        <div class="photoapp__box">
+                            <img class="photoapp__img" src="/images/HandPhoneSmall.png" alt="Iphone image">
+                            <h2 class="photoapp__title container__title--green">RAPPRESENT YOUR LIFE WITH A SIMPLE PHOTO</h2>
+                            <p class="photoapp__text container__text--grey" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                            <form class="photoapp__form" action="#" method="GET">
+                            <button class="btn photoapp__btn">get started</button>
+                        </form>
+                    </div>
                 </div>
             </section>
             <section class="design">
                 <div class="continer design__container">
-                    <img class="design__img" src="/images/FlatIphone.png" alt="Green Iphone">
-                    <div class="slider__menu">
+                    <div class="img__box">
+                        <img class="design__img" src="/images/FlatIphone.png" alt="Green Iphone">
+                    </div>
+                    <div class="design__box">
+                        <h2 class="container__title container__title--green">DESIGN</h2>
+                        <p class="container__text container__text--grey" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" class="btn design__btn">learn more</a>
+                     <div class="design__slider slider__menu">
                         <p class="slider__number">01/05</p>
                         <form class="slider__form" action="#" method="GET">
                                 <button class="slider__btn"><i class="fas fa-chevron-left"></i></button>
                                 <button class="slider__btn"><i class="fas fa-chevron-right"></i></button>
                         </form>
                     </div>
-                    <h2 class="container__title container__title--green">DESIGN</h2>
-                    <p class="container__text container__text--grey" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="#" class="btn design__btn">learn more</a>
+                    </div>
                 </div>
             </section>
             <section class="community">
                 <div class="community__box">
-                    <div class="community__main">
-                        <img class="community__logo" src="/images/Livello4.png" alt="logotype">
-                        <h2 class="community__title">OUR COMMUNITY</h2>
-                        <p class="community__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                    </div>
                     <div class="community__slider">
                         <div class="slider__menu">
                             <form class="slider__form" action="#" method="GET">
@@ -78,6 +79,11 @@
                                     <button class="slider__btn"><i class="fas fa-chevron-right"></i></button>
                             </form>
                         </div>
+                    </div>
+                    <div class="community__main">
+                        <img class="community__logo" src="/images/Livello4.png" alt="logotype">
+                        <h2 class="community__title">OUR COMMUNITY</h2>
+                        <p class="community__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
                     </div>
                     <div class="community__item">
                         <img class="community__img" src="/images/Livello5.png" alt="car image">

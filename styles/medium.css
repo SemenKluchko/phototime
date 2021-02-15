@@ -1,22 +1,19 @@
 
+/* ------------------ Common Styles ------------------ */
+
+/* -------------- End of Common Styles -------------- */
+
+
 /* ------------------ Header ------------------ */
 .header {
+    position: relative;
     background-image: url('/images/BG.png');
     min-height: 100vh;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header__nav {
-    min-width: 100%;
-    
 }
 
 .nav__menu {
-    min-width: 80%;
-    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -30,128 +27,105 @@
     padding: 5px;
 }
 
-
-.nav__item--visible {
-    display: block;
-}
-
-.nav__anchor {
-    display: block;
-    min-width: 100%;
-    font: lighter 16px/22px 'Roboto', Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-} 
-
 .burger__btn {
     display: none;
 }
 
-.burger__btn::after {
-    content: "";
-    display: block;
+.header__container {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 100%;
-    border-top: 3px solid #eceaef;
+    padding: 0;
 }
-
-.burger__btn:hover::after,
-.burger__btn:hover {
-    border-color: #80484b;
-    cursor: pointer;
-}
-
-
-.header__container {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.header__title {
-    font: lighter 36px/40px 'Roboto', Arial, Helvetica, sans-serif;
-    letter-spacing: 5.4px;
-    text-transform: uppercase;
-}
-
-.header__text {
-    font: normal 10px/22px 'Roboto', Arial, Helvetica, sans-serif;
-    letter-spacing: 2.4px;
-    padding: 10px 0;
-}
-
 
 
 .font__menu {
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 10px;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -2%);
 }
 
-.font__item {
-    font-size: 23px;
-    margin: 0 5px;
-}
-
-.font__item:hover {
-    color: #16A085;
-}
 /* ------------------ End of Header ------------------ */
 
 /* ------------------ Photoapp section ------------------ */
 
 .photoapp {
+    position: relative;
+    background-image: url('/images/HandPhoneSmall.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 55%;
     padding: 0 0 50px;
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
+    background-color: #f5f6f7;
 }
 
-.photoapp__container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    min-height: 500px;
+.photoapp__box {
+    position: absolute;
+    bottom: 17%;
+    right: 4.5%;
+    max-width: 40%;
+    text-align: left;
+}
+
+.photoapp__btn {
+    margin: 0;
 }
 
 .photoapp__img {
-    width: 100%;
-    max-width: 543px;
+   display: none;
 }
- 
 
+.container__title--green {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.container__text--grey {
+    width: 100%;
+    padding: 15px 0 30px;
+}
 
 /* ------------------ End of Photoapp ------------------ */
 
 /* ------------------ Design section ------------------ */
 .design {
-    padding: 50px 0;
-    width: 100%;
-    min-height: 700px;
+    padding: 0;
 }
 
 .design__img {
-    width: 50%;
-    max-width: 314px;
-    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 313px;
+    height: 600px;
+    margin: 35px -2px 0px 0px;
  }
 
+.img__box {
+   min-width: 385px;
+   height: 474px;
+   overflow: hidden;
+}
+
 .design__container {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    padding-top: 140px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.design__box {
+    padding-top: 30px;
+    max-width: 40%;
+    text-align: left;
 }
 
 .design__btn {
     padding-top: 14px;
-}
-
-.slider__menu {
-    padding-top: 40px;
+    margin: 0;
+    text-align: center;
 }
 
 .slider__btn {
@@ -172,80 +146,25 @@
 /* ------------------ End of Design ------------------ */
 
 /* ------------------ Community section ------------------ */
-.community {
-    padding: 50px 0;
-}
-
 .community__box {
-    display: flex;
-    flex-direction: column;
+    width: 85%;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-}
-
-.community__item {
-    padding: 0 10px;
-}
-
-.community__img {
-    width: 100%;
-    max-width: 370px;
-}
-
-.community__slider {
-    padding-bottom: 20px;
+    align-content: flex-end;
 }
 
 .community__main {
-    color: #373737;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.community__item {
     width: 50%;
-    text-align: center;
-    padding: 40px 0;
 }
-
-.community__title {
-    padding-top: 20px;
-    font: normal 16px/20px 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-.community__text {
-    padding: 20px 0;
-    font: normal 10px/12px 'Roboto', Arial, Helvetica, sans-serif;
-}
-
 
 /* ------------------ End of Community ------------------ */
 
 
-/* .nav__item {
-    width: 25%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding: 5px;
-}
-
-
-.nav__item:hover {
-    background-color: transparent;
-}
-
-.nav__anchor {
-    font: lighter 16px/22px 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-.container__title {
-    font: lighter 36px/22px 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-.photoapp {
-    background-image: url('/images/HandPhone.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    color: #eceaef;
-    min-height: 500px;
-}
-
-.photoapp__img {
- display: none;
-} */ 
