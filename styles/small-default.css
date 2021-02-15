@@ -71,7 +71,7 @@ body {
 
 /* ------------------ Header ------------------ */
 .header {
-    background-image: url('/images/BG_medium.png');
+    background-image: url('../images/BG_medium.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;

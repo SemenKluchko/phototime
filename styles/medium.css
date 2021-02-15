@@ -7,7 +7,7 @@
 /* ------------------ Header ------------------ */
 .header {
     position: relative;
-    background-image: url('/images/BG.png');
+    background-image: url('../images/BG.png');
     min-height: 100vh;
 }
 
@@ -53,7 +53,7 @@
 
 .photoapp {
     position: relative;
-    background-image: url('/images/HandPhoneSmall.png');
+    background-image: url('../images/HandPhoneSmall.png');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 55%;
