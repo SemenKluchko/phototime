@@ -21,8 +21,6 @@ body {
     font: normal 12px/22px 'Roboto', Arial, Helvetica, sans-serif;
     letter-spacing: 2.4px;
 } 
-
-
 /* ----------- End of Body -------------- */
 
 /* ------------------ Common Styles ------------------ */
@@ -84,7 +82,6 @@ body {
 
 .header__nav {
     min-width: 100%;
-    
 }
 
 .nav__menu {
@@ -190,6 +187,7 @@ body {
 }
 
 .font__item {
+    color: #fff;
     font-size: 23px;
     margin: 0 5px;
 }
@@ -285,7 +283,7 @@ body {
 
 /* ------------------ Community section ------------------ */
 .community {
-    padding: 120px 0 0;
+    padding: 120px 0;
 }
 
 .community__box {
@@ -336,3 +334,59 @@ body {
     font: normal 10px/12px 'Roboto', Arial, Helvetica, sans-serif;
 }
 /* ------------------ End of Community ------------------ */
+
+/* ------------------ Subscribe section ------------------ */
+.subscribe {
+    position: relative;
+    background-image: url('../images/Livello3Small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    padding: 2rem 0;
+    min-width: 100%;
+    min-height: 310px;
+}
+
+.subscribe__box {
+    text-align: center;
+    max-width: 45%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subscribe__title {
+    color: #fff;
+    font: lighter 24px/28.8px 'Roboto', Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+
+
+.subscribe__input {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    min-height: 60px;
+    padding-left: 22px;
+    font: normal 16px/19.2px 'Roboto', Arial, Helvetica, sans-serif;
+    color: #373737;
+    border-radius: 3px 3px 0px 0px;
+    border-color: transparent;
+}
+
+.subscribe__btn {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    min-height: 60px;
+    border-radius: 0px 0px 3px 3px;
+    border-color: transparent;
+    background-color: #16A085;
+    cursor: pointer;
+}
+/* ------------------ End of Subscribe ------------------ */

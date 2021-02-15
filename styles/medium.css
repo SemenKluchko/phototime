@@ -164,7 +164,29 @@
 .community__item {
     width: 50%;
 }
-
 /* ------------------ End of Community ------------------ */
 
+/* ------------------ Subscribe section ------------------ */
+.subscribe {
+    background-image: url('../images/Livello3Medium.png');
+    min-height: 486px;
+}
+.subscribe__form {
+    display: flex;
+    justify-content: center;
+}
+.subscribe__btn {
+    display: block;
+    width: 100%;
+    max-width: 63px;
+    min-height: 60px;
+    border-radius: 0px 3px 3px 0px;
+}
 
+.subscribe__input {
+    border-radius: 3px 0px 0px 3px;
+}
+
+
+
+/* ------------------ End of Subscribe ------------------ */
