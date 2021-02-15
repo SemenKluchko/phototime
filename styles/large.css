@@ -21,10 +21,6 @@
     width: 100%;
     background-color: #f5f6f7;
 }
-
-
-
-
 /* ------------------ End of Photoapp ------------------ */
 
 
@@ -32,7 +28,6 @@
 .design__box {
     max-width: 30%;
 }
-
 /* ------------------ End of Design ------------------ */
 
 /* ------------------ Community section ------------------ */
@@ -54,9 +49,13 @@
     margin: 0 auto;
     text-align: center;
 }
-
-/* .community__slider {
-    top: 0%;
-    right: 3%;
-} */
 /* ------------------ End of Community ------------------ */
+
+/* ------------------ Subscribe section ------------------ */
+.subscribe {
+    background-image: url('../images/Livello3.png');
+    min-height: 100vh;
+}
+
+
+/* ------------------ End of Subscribe ------------------ */
