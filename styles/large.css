@@ -1,5 +1,5 @@
 .header {
-    background-image: url('/images/BG.png');
+    background-image: url('../images/BG.png');
 }
 
 
@@ -13,7 +13,7 @@
 }
 
 .photoapp {
-    background-image: url('/images/HandPhone.png');
+    background-image: url('../images/HandPhone.png');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
