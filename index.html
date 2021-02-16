@@ -10,16 +10,20 @@
 </head>
 <body>
     <div class="wrapper">
+        <a href="#"><i class="arrow up"></i></a>
         <header class="header">
+            <a name="home"></a>
             <nav class="header__nav">
                 <ul class="nav__menu">
-                    <li class="nav__item"><a class="nav__anchor" href="#">Home</a></li>
-                    <li class="nav__item"><a class="nav__anchor" href="#">Photoapp</a></li>
+                    <li class="nav__item"><a class="nav__anchor" href="#home">Home</a></li>
+                    <li class="nav__item"><a class="nav__anchor" href="#photoapp">Photoapp</a></li>
                     <li class="nav__item nav__item--visible">
-                        <img class="nav__logo" src="images/Livello2.png" alt="logotype image">
+                        <a href="#footer">
+                            <img class="nav__logo" src="images/Livello2.png" alt="Header logotype image">
+                        </a>
                     </li>
-                    <li class="nav__item"><a class="nav__anchor" href="#">Design</a></li>
-                    <li class="nav__item"><a class="nav__anchor" href="#">Download</a></li>
+                    <li class="nav__item"><a class="nav__anchor" href="#design">Design</a></li>
+                    <li class="nav__item"><a class="nav__anchor" href="#download">Download</a></li>
                 </ul>
             <form class="burger__form" action="#" method="GET">
                 <button class="burger__btn" type="submit"></button>
@@ -33,13 +37,14 @@
                 </form>
             </div>
             <div class="font__menu">
-                <a href="https://twitter.com/" target="_blanck"><i class="font__item fab fa-twitter"></i></a>
-                <a href="https://flickr.com" target="_blanck"><i class="font__item fab fa-flickr"></i></a>
-                <a href="https://dribbble.com/" target="_blanck"><i class="font__item fab fa-dribbble"></i></a>
+                <a href="https://twitter.com/" target="blanck"><i class="font__item fab fa-twitter"></i></a>
+                <a href="https://flickr.com" target="blanck"><i class="font__item fab fa-flickr"></i></a>
+                <a href="https://dribbble.com/" target="blanck"><i class="font__item fab fa-dribbble"></i></a>
             </div>
         </header>
         <main class="main">
             <section class="photoapp">
+                <a name="photoapp"></a>
                 <div class="photoapp__container">
                         <div class="photoapp__box">
                             <img class="photoapp__img" src="images/HandPhoneSmall.png" alt="Iphone image">
@@ -52,6 +57,7 @@
                 </div>
             </section>
             <section class="design">
+                <a name="design"></a>
                 <div class="continer design__container">
                     <div class="img__box">
                         <img class="design__img" src="images/FlatIphone.png" alt="Green Iphone">
@@ -59,7 +65,7 @@
                     <div class="design__box">
                         <h2 class="container__title container__title--green">DESIGN</h2>
                         <p class="container__text container__text--grey" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#" class="btn design__btn">learn more</a>
+                        <a href="#subscribe" class="btn design__btn">learn more</a>
                      <div class="design__slider slider__menu">
                         <p class="slider__number">01/05</p>
                         <form class="slider__form" action="#" method="GET">
@@ -94,38 +100,52 @@
                 </div>
             </section>
             <section class="subscribe">
+                <a name="subscribe"></a>
                 <div class="subscribe__box">
                     <h2 class="subscribe__title">SUBSCRIBE TO OUR COMMUNITY</h2>
                     <form class="subscribe__form" action="#" method="GET">
                         <input type="email" name="email" class="subscribe__input"  placeholder="YOUR EMAIL" required />
-                        <button type="submit" class="subscribe__btn"><i class="font__item fas fa-check"></i></button>
+                        <button type="submit" class="subscribe__btn"><i class="fas fa-check"></i></button>
                     </form>
                 </div>
             </section>
             <section class="download">
+                <a name="download"></a>
                 <div class="download__box">
-                    <h2 class="download__box">DOWNLOAD IT</h2>
-                    <p class="download__text">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.</p>
+                    <div class="download__text">
+                        <h2 class="download__title">DOWNLOAD IT</h2>
+                    <p class="download__sub-title">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT.</p>
                     
+                    </div>
                     <div class="download__buttons">
-                        <a href="#" class="btn"></a>
-                        <a href="#" class="btn"></a>
+                        <a href="https://www.apple.com/app-store/" target="blanck" class="download__btn">
+                            APPLE STORE<i class="font__btn fab fa-apple"></i>
+                        </a>
+                        <a href="https://play.google.com/store/apps?hl=ru&gl=US" target="blanck" class="download__btn">
+                            PLAY STORE<i class="font__btn fab fa-android"></i>
+                        </a>
                     </div>
                 </div>
             </section>
             <footer class="footer">
-                <div class="footer__links">
-                    <p class="footer__link"><a href="">CREDITS</a></p>
-                    <p class="footer__link"><a href="">PRIVACY</a></p>
-                    <p class="footer__link"><a href="">OUR TEAMS</a></p>
-                    <p class="footer__cprt">Copyright by phototime - all right reserved</p>
-                </div>
-                <div class="footer__logo">
-                    <img src="#" alt="logotype">
+                <a name="footer"></a>
+                <div class="footer__box">
+                    <div class="footer__links">
+                        <a class="footer__link" href="#">CREDITS</a>
+                        <a class="footer__link" href="#">PRIVACY</a>
+                        <a class="footer__link footer__link--border" href="#">OUR TEAMS</a>
+                        <p class="footer__cprt">
+                            <a href="#home">Copyright by phototime - all right reserved</a>
+                        </p>
+                    </div>
+                    <div class="footer__logo">
+                        <a href="#home">
+                            <img src="images/Livello2copia.png" alt="Footer logotype image">
+                        </a>
+                    </div>
                 </div>
             </footer>
         </main>
-
     </div>
 </body>
 </html>

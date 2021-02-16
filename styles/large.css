@@ -1,8 +1,11 @@
+html {
+    font-size: 16px;
+}
+/* ------------------ Header ------------------ */
 .header {
     background-image: url('../images/BG.png');
 }
-
-
+/* ------------------ End of Header ------------------ */
 
 /* ------------------ Photoapp section ------------------ */
 .photoapp__box {
@@ -56,6 +59,48 @@
     background-image: url('../images/Livello3.png');
     min-height: 100vh;
 }
-
-
 /* ------------------ End of Subscribe ------------------ */
+
+/* ------------------ Download section ------------------ */
+.download__buttons {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+}
+
+/* ------------------ End of Download ------------------ */
+
+/* ------------------ Footer section ------------------ */
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 42px 0 33px;
+}
+
+.footer__links {
+    display: inline-block;
+}
+
+.footer__link {
+    border-right: 1px solid green;
+    padding: 0 10px;
+}
+
+.footer__link:hover,
+.footer__cprt:hover {
+    text-decoration: underline;
+}
+
+.footer__link--border {
+    border-right: none;
+}
+
+.footer__cprt {
+    padding: 16px 10px;
+}
+/* ------------------ End of Footer ------------------ */
