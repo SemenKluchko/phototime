@@ -1,8 +1,29 @@
+body {
+    font: normal 1rem/2rem 'Roboto', Arial, Helvetica, sans-serif;
+}
+.container__title--green {
+    font: lighter 1.125rem/1.35rem 'Roboto', Arial, Helvetica, sans-serif;
+}
 
-/* ------------------ Common Styles ------------------ */
+.container__text--grey {
+    font: lighter 0.75rem/1.5rem 'Roboto', Arial, Helvetica, sans-serif;
+}
 
-/* -------------- End of Common Styles -------------- */
+.nav__anchor {
+    font: lighter 1rem/1.375px 'Roboto', Arial, Helvetica, sans-serif;
+}
 
+.header__title {
+    font: lighter 2.25rem/2.5rem 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 5.4px;
+    text-transform: uppercase;
+}
+
+.header__text {
+    font: normal 0.625rem/10rem 'Roboto', Arial, Helvetica, sans-serif;
+    letter-spacing: 2.4px;
+    padding: 10px 0;
+}
 
 /* ------------------ Header ------------------ */
 .header {
@@ -14,9 +35,14 @@
 .nav__menu {
     width: 80%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-self: center;
-    justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .nav__item {
@@ -34,7 +60,9 @@
 .header__container {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     padding: 0;
 }
 
@@ -44,7 +72,9 @@
     position: absolute;
     bottom: 2%;
     left: 50%;
-    transform: translate(-50%, -2%);
+    -webkit-transform: translate(-50%, -2%);
+        -ms-transform: translate(-50%, -2%);
+            transform: translate(-50%, -2%);
 }
 
 /* ------------------ End of Header ------------------ */
@@ -112,8 +142,12 @@
 
 .design__container {
     padding-top: 140px;
-    flex-direction: row;
-    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 .design__box {
@@ -123,7 +157,6 @@
 }
 
 .design__btn {
-    padding-top: 14px;
     margin: 0;
     text-align: center;
 }
@@ -148,12 +181,21 @@
 /* ------------------ Community section ------------------ */
 .community__box {
     width: 85%;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
 }
 
 .community__main {
@@ -164,6 +206,10 @@
 .community__item {
     width: 50%;
 }
+
+.community__slider {
+    right: 1%;
+}
 /* ------------------ End of Community ------------------ */
 
 /* ------------------ Subscribe section ------------------ */
@@ -172,8 +218,12 @@
     min-height: 486px;
 }
 .subscribe__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .subscribe__btn {
     display: block;
@@ -186,7 +236,28 @@
 .subscribe__input {
     border-radius: 3px 0px 0px 3px;
 }
-
-
-
 /* ------------------ End of Subscribe ------------------ */
+
+/* ------------------ Download section ------------------ */
+.download__buttons {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+}
+
+/* ------------------ End of Download ------------------ */
+
+/* ------------------ Footer section ------------------ */
+.footer__box {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 42px 0 33px;
+}
+/* ------------------ End of Footer ------------------ */
