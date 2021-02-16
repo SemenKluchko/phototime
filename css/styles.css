@@ -453,8 +453,11 @@ body {
   text-align: center; }
 
 .download__title {
-  font: lighter 20px/24px 'Roboto', Arial, Helvetica, sans-serif;
+  font: normal 20px/24px 'Roboto', Arial, Helvetica, sans-serif;
   padding-bottom: 10px; }
+
+.download__sub-title {
+  font: lighter 12px/22px 'Roboto', Arial, Helvetica, sans-serif; }
 
 .download__buttons {
   min-width: 100%;
