@@ -21,7 +21,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 50px 10px 30px;
-    color: #16A085;
+    color: $primaryColor;
     font: lighter .88rem/1rem 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +29,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 0 10px 30px;
-    color: #373737;
+    color: $secondaryColor;
     font: lighter 0.65rem/1.3rem 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
     max-width: 166px;
     min-height: 49px;
     margin: 0 auto;
-    background-color: #16A085;
+    background-color: $primaryColor;
     border: 1px solid transparent;
     font-size: 0.75rem;
     letter-spacing: 1.8px;
@@ -67,7 +67,7 @@ body {
     background-position-y: top;
     padding: 2rem 0;
     width: 100%;
-    color: #eceaef;
+    color: $backColor;
 }
 
 .header__nav {
@@ -106,7 +106,7 @@ body {
 } 
 
 .nav__anchor:hover {
-    color: #16A085;
+    color: $primaryColor;
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -123,8 +123,8 @@ body {
     outline: none;
     background-color: transparent;
     border: none;
-    border-top: 3px solid #eceaef;
-    border-bottom: 3px solid #eceaef;
+    border-top: 3px solid $backColor;
+    border-bottom: 3px solid $backColor;
 }
 
 .burger__btn::after {
@@ -136,12 +136,12 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 100%;
-    border-top: 3px solid #eceaef;
+    border-top: 3px solid $backColor;
 }
 
 .burger__btn:hover::after,
 .burger__btn:hover {
-    border-color: #16A085;
+    border-color: $primaryColor;
     cursor: pointer;
 }
 
@@ -184,7 +184,7 @@ body {
 }
 
 .font__item:hover {
-    color: #16A085;
+    color: $primaryColor;
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -269,7 +269,7 @@ body {
 }
 
 .slider__btn:hover {
-    color: #16A085;
+    color: $primaryColor;
 }
 /* ------------------ End of Design ------------------ */
 
@@ -310,7 +310,7 @@ body {
 }
 
 .community__main {
-    color: #373737;
+    color: $secondaryColor;
     width: 50%;
     text-align: center;
     padding: 20px 0 40px;
@@ -366,7 +366,7 @@ body {
     min-height: 60px;
     padding-left: 22px;
     font: normal 16px/19.2px 'Roboto', Arial, Helvetica, sans-serif;
-    color: #373737;
+    color: $secondaryColor;
     border-radius: 3px 3px 0px 0px;
     border-color: transparent;
 }
@@ -380,7 +380,7 @@ body {
     min-height: 60px;
     border-radius: 0px 0px 3px 3px;
     border-color: transparent;
-    background-color: #16A085;
+    background-color: $primaryColor;
     cursor: pointer;
 }
 
@@ -391,12 +391,13 @@ body {
 
 /* ------------------ Download section ------------------ */
 .download {
-    background-color: #eceaef;
+    background-color: $backColor;
     min-width: 100%;
     min-height: 396px;
 }
 
 .download__box {
+    color: $secondaryColor;
     padding-top: 84px;
     width: 64%;
     margin: 0 auto;
@@ -444,7 +445,7 @@ body {
 }
 
 .download__btn:hover {
-    background-color: #16A085;
+    background-color: $primaryColor;
 }
 
 .font__btn {
@@ -456,7 +457,7 @@ body {
     min-height: 56px;
     border-radius: 0px 3px 3px 0px;
     border-color: transparent;
-    background-color: #16A085;
+    background-color: $primaryColor;
     cursor: pointer;
 }
 /* ------------------ End of Download ------------------ */
@@ -486,7 +487,7 @@ body {
 }
 
 .footer__link {
-    border-right: 1px solid #16A085;
+    border-right: 1px solid $primaryColor;
     padding: 0 10px;
 }
 
@@ -517,7 +518,7 @@ body {
   }
 .arrow:hover::after, 
 .arrow:hover {
-    border-color: #16A085;
+    border-color: $primaryColor;
     cursor: pointer;
 }
 

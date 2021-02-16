@@ -1,1 +1,1 @@
-link to prjct - 
+link to prjct - https://semenkluchko.github.io/phototime/
