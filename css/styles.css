@@ -527,10 +527,12 @@ body {
   padding: 42px 0 33px; }
 
 .footer__links {
+  color: #373737;
+  font: lighter 0.65rem/1.3rem 'Roboto', Arial, Helvetica, sans-serif;
   display: inline-block; }
 
 .footer__link {
-  border-right: 1px solid #16A085;
+  border-right: 3px solid #16A085;
   padding: 0 10px; }
 
 .footer__link:hover,

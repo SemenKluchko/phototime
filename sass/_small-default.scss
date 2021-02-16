@@ -487,11 +487,13 @@ body {
 }
 
 .footer__links {
+    color: $secondaryColor;
+    font: lighter 0.65rem/1.3rem 'Roboto', Arial, Helvetica, sans-serif;
     display: inline-block;
 }
 
 .footer__link {
-    border-right: 1px solid $primaryColor;
+    border-right: 3px solid $primaryColor;
     padding: 0 10px;
 }
 
