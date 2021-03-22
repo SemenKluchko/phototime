@@ -20,7 +20,7 @@ body {
 }
 
 .header__text {
-    font: normal 0.625rem/10rem 'Roboto', Arial, Helvetica, sans-serif;
+    font: normal 0.625rem/3rem 'Roboto', Arial, Helvetica, sans-serif;
     letter-spacing: 2.4px;
     padding: 10px 0;
 }
@@ -58,14 +58,8 @@ body {
 }
 
 .header__container {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    padding: 0;
+    padding-top: 100px;
 }
-
 
 .font__menu {
     padding: 0;

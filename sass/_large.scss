@@ -2,8 +2,19 @@ html {
     font-size: 16px;
 }
 /* ------------------ Header ------------------ */
+.header__container {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding: 0;
+    background-position: 100% 100%;
+}
+
 .header {
     background-image: url('../images/BG.png');
+    background-position: center 100%;
 }
 /* ------------------ End of Header ------------------ */
 

@@ -59,7 +59,7 @@ body {
 
 /* ------------------ Header ------------------ */
 .header {
-    background-image: url('../images/BG_medium.png');
+    background-image: url('../images/BG_small.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -159,7 +159,7 @@ body {
 }
 
 .header__text {
-    font: normal 0.625rem/10rem 'Roboto', Arial, Helvetica, sans-serif;
+    font: normal 0.625rem/3rem 'Roboto', Arial, Helvetica, sans-serif;
     letter-spacing: 2.4px;
     padding: 10px 0;
 }
