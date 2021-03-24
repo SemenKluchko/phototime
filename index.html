@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="#">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>   
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Phototime</title>
@@ -15,17 +18,24 @@
         <header class="header">
             <a name="home"></a>
             <nav class="header__nav">
-                <ul class="nav__menu">
-                    <li class="nav__item"><a class="nav__anchor" href="#home">Home</a></li>
-                    <li class="nav__item"><a class="nav__anchor" href="#photoapp">Photoapp</a></li>
-                    <li class="nav__item nav__item--visible">
-                        <a href="#footer">
-                            <img class="nav__logo" src="images/Livello2.png" alt="Header logotype image">
-                        </a>
-                    </li>
-                    <li class="nav__item"><a class="nav__anchor" href="#design">Design</a></li>
-                    <li class="nav__item"><a class="nav__anchor" href="#download">Download</a></li>
-                </ul>
+                <div class="header__logotype">
+                    <a href="#footer">
+                        <img class="nav__logo" src="images/Livello2.png" alt="Header logotype image">
+                    </a>
+                </div>
+                <div class="modal-window"></div>
+                    <ul class="nav__menu">
+                        <span class="nav__close-btn">&times;</span>
+                        <li class="nav__item nav__item--position"><a class="nav__anchor" href=".">Home</a></li>
+                        <li class="nav__item nav__item--position"><a class="nav__anchor" href="#photoapp">Photoapp</a></li>
+                        <li id="remove-img" class="nav__item nav__item--position">
+                            <a class="nav__anchor" href="#footer">
+                                <img class="nav__logo" src="images/Livello2.png" alt="Header logotype image">
+                            </a>
+                        </li>
+                        <li id="back-img" class="nav__item nav__item--position"><a class="nav__anchor" href="#design">Design</a></li>
+                        <li class="nav__item nav__item--position"><a class="nav__anchor" href="#download">Download</a></li>
+                    </ul>
                 <button class="burger__btn" type="submit"></button>
             </nav>
             <div class="header__container">
@@ -58,43 +68,45 @@
             <section class="design">
                 <a name="design"></a>
                 <div class="continer design__container">
-                    <div class="img__box">
-                        <img class="design__img" src="images/FlatIphone.png" alt="Green Iphone">
+                    <div class="design__slider">
+                        <img class="desing__img" src="images/apple-1.jpeg" alt="">
+                        <img class="desing__img" src="images/apple-2.jpeg" alt="">
+                        <img class="desing__img" src="images/apple-3.jpeg" alt="">
+                        <img class="desing__img" src="images/apple-4.jpeg" alt="">
+                        <img class="desing__img" src="images/apple-5.jpeg" alt="">
                     </div>
-                    <div class="design__box">
-                        <h2 class="container__title container__title--green">DESIGN</h2>
-                        <p class="container__text container__text--grey" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <a href="#subscribe" class="btn design__btn">learn more</a>
-                     <div class="design__slider slider__menu">
-                        <p class="slider__number">01/05</p>
-                        <form class="slider__form" action="#" method="GET">
-                                <button class="slider__btn"><i class="fas fa-chevron-left"></i></button>
-                                <button class="slider__btn"><i class="fas fa-chevron-right"></i></button>
-                        </form>
-                    </div>
+                    <div class="design__wrapper">
+                        <div class="design__box">
+                            <h2 class="container__title container__title--green">DESIGN</h2>
+                            <p class="container__text container__text--grey" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="#subscribe" class="btn design__btn">learn more</a>    
+                        </div>
+                            <div class="slider__menu">
+                                <span class="slider__numbers">01/05</span>  
+                                <div class="slick-controls">
+                                    <button class="arrow-prev design-prev">Prev</button>
+                                    <button class="arrow-next design-next">Next</button>
+                                 </div>      
+                            </div>
                     </div>
                 </div>
             </section>
             <section class="community">
+                    <div class="community__slider slider__menu"> 
+                            <div class="slick-controls">
+                                <button class="arrow-prev comm-prev">Prev</button>
+                                <button class="arrow-next comm-next">Next</button>
+                             </div>      
+                        </div> 
                 <div class="community__box">
-                    <div class="community__slider">
-                        <div class="slider__menu">
-                            <form class="slider__form" action="#" method="GET">
-                                    <button class="slider__btn"><i class="fas fa-chevron-left"></i></button>
-                                    <button class="slider__btn"><i class="fas fa-chevron-right"></i></button>
-                            </form>
-                        </div>
-                    </div>
                     <div class="community__main">
                         <img class="community__logo" src="images/Livello4.png" alt="logotype">
                         <h2 class="community__title">OUR COMMUNITY</h2>
                         <p class="community__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
                     </div>
-                    <div class="community__item">
+                    <div class="comm__slider">
                         <img class="community__img" src="images/Livello5.png" alt="car image">
-                    </div>
-                    <div class="community__item">
-                        <img class="community__img" src="images/Livello6.png" alt="nature image">
+                        <img class="community__img" src="images/Livello6.png" alt="nature image">        
                     </div>
                 </div>
             </section>
@@ -102,10 +114,17 @@
                 <a name="subscribe"></a>
                 <div class="subscribe__box">
                     <h2 class="subscribe__title">SUBSCRIBE TO OUR COMMUNITY</h2>
-                    <form class="subscribe__form" action="#" method="GET">
+                    <form class="subscribe__form">
                         <input type="email" name="email" class="subscribe__input"  placeholder="YOUR EMAIL" required />
                         <button type="submit" class="subscribe__btn"><i class="fas fa-check"></i></button>
                     </form>
+                </div>
+                <div class="subscribe__modal">
+                    <div class="modal-text">
+                        <div class="anim"></div>
+                        <span class="sorry__text">SORRY, FOR NOW THIS FEATURE IS DISABLED!</span>
+                        <button class="btn ok__btn" type="button">OK</button>
+                    </div>
                 </div>
             </section>
             <section class="download">
@@ -146,5 +165,10 @@
             </footer>
         </main>
     </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script typ="text/javascript" src="js/loader.js"></script>
+    <script typ="text/javascript" src="js/main.js"></script>
 </body>
 </html>
