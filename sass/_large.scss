@@ -13,8 +13,30 @@ html {
 }
 
 .header {
-    background-image: url('../images/BG.png');
     background-position: center 100%;
+
+}
+
+.burger__btn {
+    display: none;
+}
+
+.nav__menu {
+        width: 80%;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-item-align: center;
+            align-self: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+}
+
+.header__logotype,
+.nav__close-btn {
+    display: none;
 }
 /* ------------------ End of Header ------------------ */
 
@@ -40,21 +62,39 @@ html {
 
 /* ------------------ Design section ------------------ */
 .design__box {
-    max-width: 30%;
+    width: 100%;
 }
+
+.design__wrapper {
+    width: 30%;
+}
+.design__container {
+    padding: 100px 50px;
+}
+
+
+
+
 /* ------------------ End of Design ------------------ */
 
 /* ------------------ Community section ------------------ */
-.community__box {
-    padding-top: 20px;
-}
 
 .community__main {
-    width: 33%;
+    width: 29%;
+    margin-right: 80px;
 }
 
 .community__item {
     width: 33%;
+}
+
+.community__slider {
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.comm__slider {
+    width: 60%;
 }
 
 .community__title,

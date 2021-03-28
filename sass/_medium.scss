@@ -29,36 +29,22 @@ body {
 .header {
     position: relative;
     background-image: url('../images/BG.png');
-    min-height: 100vh;
-}
-
-.nav__menu {
-    width: 80%;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: center;
-        align-self: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    background-position: center 100%;
+    min-height: 800px;
 }
 
 .nav__item {
     width: 25%;
     display: block;
-    margin: 0 auto;
+    margin: 2.5% auto;
     text-align: center;
     padding: 5px;
 }
 
-.burger__btn {
-    display: none;
-}
+
 
 .header__container {
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .font__menu {
@@ -128,6 +114,18 @@ body {
     margin: 35px -2px 0px 0px;
  }
 
+ .design__slider {
+     width: 35%;
+     height: 30%;
+     margin: 50px 76px 0px 60px;
+     padding-top: 40px;
+ }
+
+.design__wrapper {
+    width: 42%;
+    margin: 0
+}
+
 .img__box {
    min-width: 385px;
    height: 474px;
@@ -135,18 +133,16 @@ body {
 }
 
 .design__container {
-    padding-top: 140px;
+    padding: 20px 20px;;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+        justify-content: space-evenly;
 }
 
 .design__box {
-    padding-top: 30px;
-    max-width: 40%;
     text-align: left;
 }
 
@@ -169,6 +165,27 @@ body {
 
 .slider__btn:hover {
     color: $primaryColor;
+}
+
+
+.slider__menu {
+    padding-top: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.slick-prev, 
+.slick-next {
+    top: 82%;
+    right: -40%;
+}
+
+.slick-prev {
+    left: 145%;
+}
+
+.slick-next {
+    right: -57%;
 }
 /* ------------------ End of Design ------------------ */
 
@@ -193,7 +210,7 @@ body {
 }
 
 .community__main {
-    padding-top: 40px;
+    padding-top: 80px;
     width: 100%;
 }
 
@@ -201,8 +218,11 @@ body {
     width: 50%;
 }
 
-.community__slider {
-    right: 1%;
+
+
+.comm__slider {
+    width: 100%;
+    margin: 0;
 }
 /* ------------------ End of Community ------------------ */
 
